@@ -1,5 +1,7 @@
 package com.beck.racecars;
 
+import java.util.Random;
+
 public class RaceCars {
 
 	/**
@@ -10,6 +12,14 @@ public class RaceCars {
 RedCar redcar = new RedCar(1,1);
 //Assignment 1:
 //write a line of code that sets the new color of the car using 'setcolor' from the BasicCar class
+Random taco = new Random();
+float randompower = taco.nextInt(101);
+float randomweight = taco.nextInt(101);
+
+
+redcar.setcolor("ponies");
+redcar.setpower(randompower);
+redcar.setweight(randomweight);
 
 String color = redcar.getcolor();
 System.out.println("The color of your car is currently " + color);
@@ -18,7 +28,7 @@ System.out.println("The weight of your car is currently " + redcar.weight);
 //Assignment 2:
 //Write a line of code that changes the power of redcar to 10.
 
-System.out.println("The weight of your car is currently " + redcar.power);
+System.out.println("The power of your car is currently " + redcar.power);
 
 
 

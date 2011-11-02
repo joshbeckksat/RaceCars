@@ -8,7 +8,7 @@ public class FastCar extends BasicCar {
 		super(weight,power);
 		
 	}
-	@Override
+
 	public float calculatespeed()
 	{
 		float speed = (power * 5 ) / weight;

@@ -18,6 +18,14 @@ public class BasicCar {
    {
 	   color = newcolor;
    }
+   public void setpower(float newpower)
+   {
+	   power = newpower;
+   }
+   public void setweight(float newweight)
+   {
+	   weight = newweight;
+   }
    public float calculatespeed()
    {
 	   float speed = power/weight;
