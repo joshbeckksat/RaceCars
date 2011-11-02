@@ -7,7 +7,7 @@ public class SlowCar extends BasicCar {
 		super(weight,power);
 	}
 
-	public float calculatespeed()
+	public float Calculatespeed()
 	{
 		float speed = (power / 5) / weight;
 		return speed;
