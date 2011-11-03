@@ -25,8 +25,9 @@ String color = redcar.getcolor();
 float speed = redcar.calculatespeed();
 System.out.println("The speed of your car is currently " + speed);
 
-System.out.println("The color of your car is currently " + color);
-System.out.println("The weight of your car is currently " + redcar.weight);
+System.out.println("The color of redcar is currently " + color);
+System.out.println("The weight of redcar is currently " + redcar.weight);
+System.out.println("The power of redcar car is currently " + redcar.power);
 //End redcar
 
 FastCar fastcar = new FastCar(1,1);
@@ -40,10 +41,7 @@ System.out.println("The speed of fastcar  is currently " + speed);
 
 System.out.println("The color of fastcar is currently " + color);
 System.out.println("The weight of fastcar is currently " + fastcar.weight);
-
-
-
-System.out.println("The power of your car is currently " + fastcar.power);
+System.out.println("The power of fastcar is currently " + fastcar.power);
 
 
 
