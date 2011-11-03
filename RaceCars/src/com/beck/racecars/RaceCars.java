@@ -18,17 +18,30 @@ float randomweight = taco.nextInt(101);
 
 
 redcar.setcolor("ponies");
-redcar.setpower(randompower);
-redcar.setweight(randomweight);
+redcar.setpower(10);
+redcar.setweight(10);
 
 String color = redcar.getcolor();
+float speed = redcar.calculatespeed();
+System.out.println("The speed of your car is currently " + speed);
 System.out.println("The color of your car is currently " + color);
 System.out.println("The weight of your car is currently " + redcar.weight);
+//End redcar
 
-//Assignment 2:
-//Write a line of code that changes the power of redcar to 10.
+FastCar fastcar = new FastCar(1,1);
+fastcar.setcolor("rainbows");
+fastcar.setpower(10);
+fastcar.setweight(10);
 
-System.out.println("The power of your car is currently " + redcar.power);
+String color1 = fastcar.getcolor();
+float speed1 = fastcar.calculatespeed();
+System.out.println("The speed of fastcar  is currently " + speed);
+System.out.println("The color of fastcar is currently " + color);
+System.out.println("The weight of fastcar is currently " + fastcar.weight);
+
+
+
+System.out.println("The power of your car is currently " + fastcar.power);
 
 
 
